@@ -1,0 +1,35 @@
+.main_div{
+    background-color: beige;
+    height:auto;
+    width: 90%;
+    padding: 0px 0px 0px 16px ;
+    margin: 4% 0 0 5%;
+    position: relative;
+
+}
+.contain_div{
+    border: 2px solid;
+    position: relative;
+    resize: auto;
+    margin: 0 0 10px 10px;
+    overflow: auto;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.close_div{
+    position: absolute;
+    right: 1px;
+    top: -5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
